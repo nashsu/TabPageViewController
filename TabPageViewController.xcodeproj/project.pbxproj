@@ -10,6 +10,7 @@
 		16E495CC1FEBEF4B00CB0339 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E495C91FEBEF4A00CB0339 /* cancel@2x.png */; };
 		16E495CD1FEBEF4B00CB0339 /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E495CA1FEBEF4A00CB0339 /* cancel@3x.png */; };
 		16E495CE1FEBEF4B00CB0339 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E495CB1FEBEF4B00CB0339 /* cancel.png */; };
+		16E495D21FEBFFFE00CB0339 /* 地面@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E495D11FEBFFFE00CB0339 /* 地面@1x.png */; };
 		4C2122B01E6E8AF300572DBD /* TabCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2122AA1E6E8AF300572DBD /* TabCollectionCell.swift */; };
 		4C2122B11E6E8AF300572DBD /* TabPageOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2122AC1E6E8AF300572DBD /* TabPageOption.swift */; };
 		4C2122B21E6E8AF300572DBD /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2122AE1E6E8AF300572DBD /* TabView.swift */; };
@@ -64,6 +65,7 @@
 		16E495C91FEBEF4A00CB0339 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
 		16E495CA1FEBEF4A00CB0339 /* cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@3x.png"; sourceTree = "<group>"; };
 		16E495CB1FEBEF4B00CB0339 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		16E495D11FEBFFFE00CB0339 /* 地面@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地面@1x.png"; sourceTree = "<group>"; };
 		4C2122AA1E6E8AF300572DBD /* TabCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionCell.swift; sourceTree = "<group>"; };
 		4C2122AB1E6E8AF300572DBD /* TabCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabCollectionCell.xib; sourceTree = "<group>"; };
 		4C2122AC1E6E8AF300572DBD /* TabPageOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageOption.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 		OBJ_8 /* TabPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				16E495D11FEBFFFE00CB0339 /* 地面@1x.png */,
 				16E495CB1FEBEF4B00CB0339 /* cancel.png */,
 				16E495C91FEBEF4A00CB0339 /* cancel@2x.png */,
 				16E495CA1FEBEF4A00CB0339 /* cancel@3x.png */,
@@ -322,6 +325,7 @@
 				16E495CE1FEBEF4B00CB0339 /* cancel.png in Resources */,
 				4C2123001E6EA1FB00572DBD /* TabView.xib in Resources */,
 				16E495CC1FEBEF4B00CB0339 /* cancel@2x.png in Resources */,
+				16E495D21FEBFFFE00CB0339 /* 地面@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

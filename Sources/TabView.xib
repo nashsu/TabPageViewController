@@ -62,19 +62,28 @@
                     </constraints>
                     <state key="normal" title="x"/>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="地面.png" translatesAutoresizingMaskIntoConstraints="NO" id="KY8-By-fKS">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="7"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="7" id="y1O-2o-ROb"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Xf0-gn-U1c" firstAttribute="top" secondItem="ht5-fO-CtR" secondAttribute="top" id="1Sv-my-uKj"/>
+                <constraint firstItem="KY8-By-fKS" firstAttribute="leading" secondItem="ht5-fO-CtR" secondAttribute="leading" id="3Y4-BI-dxb"/>
                 <constraint firstAttribute="trailing" secondItem="uen-FQ-wTO" secondAttribute="trailing" constant="10" id="CoK-xz-g7F"/>
                 <constraint firstAttribute="trailing" secondItem="Xf0-gn-U1c" secondAttribute="trailing" id="Ihq-m6-7H1"/>
                 <constraint firstAttribute="trailing" secondItem="v01-jI-XsV" secondAttribute="trailing" id="JIQ-ij-hDt"/>
                 <constraint firstItem="pCA-AJ-Zrg" firstAttribute="centerX" secondItem="ht5-fO-CtR" secondAttribute="centerX" id="JYP-Gc-rlJ"/>
                 <constraint firstAttribute="bottom" secondItem="pCA-AJ-Zrg" secondAttribute="bottom" id="QxU-8o-gpy"/>
                 <constraint firstItem="v01-jI-XsV" firstAttribute="leading" secondItem="ht5-fO-CtR" secondAttribute="leading" id="RZL-6S-QKj"/>
+                <constraint firstAttribute="trailing" secondItem="KY8-By-fKS" secondAttribute="trailing" id="WoB-PJ-6DN"/>
                 <constraint firstAttribute="bottom" secondItem="v01-jI-XsV" secondAttribute="bottom" id="Wxt-ZO-G4P"/>
                 <constraint firstItem="uen-FQ-wTO" firstAttribute="centerY" secondItem="Xf0-gn-U1c" secondAttribute="centerY" id="fqs-6p-7v6"/>
                 <constraint firstItem="Xf0-gn-U1c" firstAttribute="leading" secondItem="ht5-fO-CtR" secondAttribute="leading" id="k7q-kD-VGm"/>
+                <constraint firstItem="KY8-By-fKS" firstAttribute="top" secondItem="ht5-fO-CtR" secondAttribute="top" id="rdg-Pq-CYZ"/>
                 <constraint firstAttribute="bottom" secondItem="Xf0-gn-U1c" secondAttribute="bottom" id="tqy-a9-nqf"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
@@ -82,4 +91,7 @@
             <point key="canvasLocation" x="27" y="167"/>
         </view>
     </objects>
+    <resources>
+        <image name="地面.png" width="375" height="7"/>
+    </resources>
 </document>
