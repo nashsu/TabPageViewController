@@ -19,8 +19,8 @@ internal class TabView: UIView {
     }
     var layouted: Bool = false
     
-    var closeBtn:UIButton!
-
+    @IBOutlet var closeBtn: UIButton!
+    
     fileprivate var isInfinity: Bool = false
     fileprivate var option: TabPageOption = TabPageOption()
     fileprivate var beforeIndex: Int = 0
@@ -49,10 +49,7 @@ internal class TabView: UIView {
         addSubview(contentView)
         contentView.backgroundColor = option.tabBackgroundColor.withAlphaComponent(option.tabBarAlpha)
 
-        let screenWidth = UIScreen.main.bounds.width
-        
-        closeBtn = UIButton(frame: CGRect(x: screenWidth - 20, y: self.bounds.height / 2 - 10, width: 10, height: 10) )
-        self.addSubview(closeBtn)
+
         
         let top = NSLayoutConstraint(item: contentView,
             attribute: .top,
@@ -122,6 +119,9 @@ internal class TabView: UIView {
         }
 
         bottomBarViewHeightConstraint.constant = 1.0 / UIScreen.main.scale
+        
+ 
+        
     }
 
     required internal init?(coder aDecoder: NSCoder) {
