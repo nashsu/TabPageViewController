@@ -48,7 +48,7 @@ internal class TabView: UIView {
         Bundle(for: TabView.self).loadNibNamed("TabView", owner: self, options: nil)
         addSubview(contentView)
         contentView.backgroundColor = option.tabBackgroundColor.withAlphaComponent(option.tabBarAlpha)
-
+        
 
         
         let top = NSLayoutConstraint(item: contentView,
@@ -121,11 +121,19 @@ internal class TabView: UIView {
         bottomBarViewHeightConstraint.constant = 1.0 / UIScreen.main.scale
         
  
-        
+        closeBtn.addTarget(self, action: Selector("logoutAct"), for: UIControlEvents.touchUpInside)
+
     }
 
     required internal init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+    }
+    
+    
+    @objc func logoutAct(){
+        print("注销")
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "notify_tabview_logout"), object: self, userInfo: nil)
+
     }
 }
 

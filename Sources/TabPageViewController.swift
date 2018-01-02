@@ -158,7 +158,7 @@ extension TabPageViewController {
                                      toItem: topLayoutGuide,
                                      attribute: .bottom,
                                      multiplier:1.0,
-                                     constant: 0.0)
+                                     constant: -10.0)
 
         let left = NSLayoutConstraint(item: tabView,
                                       attribute: .leading,
