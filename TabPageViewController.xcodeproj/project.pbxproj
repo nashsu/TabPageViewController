@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		169933201FFB7D09003FD64F /* 退出按键.png in Resources */ = {isa = PBXBuildFile; fileRef = 1699331D1FFB7D09003FD64F /* 退出按键.png */; };
+		169933211FFB7D09003FD64F /* 退出按键.png in Resources */ = {isa = PBXBuildFile; fileRef = 1699331D1FFB7D09003FD64F /* 退出按键.png */; };
+		169933221FFB7D09003FD64F /* 退出按键@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1699331E1FFB7D09003FD64F /* 退出按键@2x.png */; };
+		169933231FFB7D09003FD64F /* 退出按键@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1699331E1FFB7D09003FD64F /* 退出按键@2x.png */; };
+		169933241FFB7D09003FD64F /* 退出按键@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1699331F1FFB7D09003FD64F /* 退出按键@3x.png */; };
+		169933251FFB7D09003FD64F /* 退出按键@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1699331F1FFB7D09003FD64F /* 退出按键@3x.png */; };
+		1699333B1FFB80D8003FD64F /* 退出@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 169933381FFB80D8003FD64F /* 退出@2x.png */; };
+		1699333C1FFB80D8003FD64F /* 退出@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 169933391FFB80D8003FD64F /* 退出@3x.png */; };
+		1699333E1FFB8129003FD64F /* 退出@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1699333D1FFB8128003FD64F /* 退出@1x.png */; };
+		169933401FFB815F003FD64F /* 退出.png in Resources */ = {isa = PBXBuildFile; fileRef = 1699333F1FFB815F003FD64F /* 退出.png */; };
 		16E495CC1FEBEF4B00CB0339 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E495C91FEBEF4A00CB0339 /* cancel@2x.png */; };
 		16E495CD1FEBEF4B00CB0339 /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E495CA1FEBEF4A00CB0339 /* cancel@3x.png */; };
 		16E495CE1FEBEF4B00CB0339 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E495CB1FEBEF4B00CB0339 /* cancel.png */; };
@@ -62,6 +72,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1699331D1FFB7D09003FD64F /* 退出按键.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出按键.png"; sourceTree = "<group>"; };
+		1699331E1FFB7D09003FD64F /* 退出按键@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出按键@2x.png"; sourceTree = "<group>"; };
+		1699331F1FFB7D09003FD64F /* 退出按键@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出按键@3x.png"; sourceTree = "<group>"; };
+		169933381FFB80D8003FD64F /* 退出@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出@2x.png"; sourceTree = "<group>"; };
+		169933391FFB80D8003FD64F /* 退出@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出@3x.png"; sourceTree = "<group>"; };
+		1699333D1FFB8128003FD64F /* 退出@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出@1x.png"; sourceTree = "<group>"; };
+		1699333F1FFB815F003FD64F /* 退出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出.png"; sourceTree = "<group>"; };
 		16E495C91FEBEF4A00CB0339 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
 		16E495CA1FEBEF4A00CB0339 /* cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@3x.png"; sourceTree = "<group>"; };
 		16E495CB1FEBEF4B00CB0339 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
@@ -126,6 +143,9 @@
 		4C2122E21E6E8F9500572DBD /* TabPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1699331D1FFB7D09003FD64F /* 退出按键.png */,
+				1699331E1FFB7D09003FD64F /* 退出按键@2x.png */,
+				1699331F1FFB7D09003FD64F /* 退出按键@3x.png */,
 				4C2122E81E6E8FB100572DBD /* AppDelegate.swift */,
 				4C2122EE1E6E8FD300572DBD /* Assets.xcassets */,
 				4C2122E31E6E8FA500572DBD /* Info.plist */,
@@ -196,6 +216,10 @@
 		OBJ_8 /* TabPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1699333F1FFB815F003FD64F /* 退出.png */,
+				1699333D1FFB8128003FD64F /* 退出@1x.png */,
+				169933381FFB80D8003FD64F /* 退出@2x.png */,
+				169933391FFB80D8003FD64F /* 退出@3x.png */,
 				16E495D11FEBFFFE00CB0339 /* 地面@1x.png */,
 				16E495CB1FEBEF4B00CB0339 /* cancel.png */,
 				16E495C91FEBEF4A00CB0339 /* cancel@2x.png */,
@@ -273,6 +297,9 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 9999;
 				TargetAttributes = {
@@ -311,8 +338,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169933211FFB7D09003FD64F /* 退出按键.png in Resources */,
+				169933231FFB7D09003FD64F /* 退出按键@2x.png in Resources */,
 				4C2122FA1E6E9AAE00572DBD /* Main.storyboard in Resources */,
 				4C2122F91E6E9AA800572DBD /* LaunchScreen.xib in Resources */,
+				169933251FFB7D09003FD64F /* 退出按键@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,11 +350,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169933401FFB815F003FD64F /* 退出.png in Resources */,
 				4C2122FE1E6EA1FB00572DBD /* TabCollectionCell.xib in Resources */,
 				16E495CD1FEBEF4B00CB0339 /* cancel@3x.png in Resources */,
+				169933221FFB7D09003FD64F /* 退出按键@2x.png in Resources */,
 				16E495CE1FEBEF4B00CB0339 /* cancel.png in Resources */,
+				169933201FFB7D09003FD64F /* 退出按键.png in Resources */,
 				4C2123001E6EA1FB00572DBD /* TabView.xib in Resources */,
 				16E495CC1FEBEF4B00CB0339 /* cancel@2x.png in Resources */,
+				1699333B1FFB80D8003FD64F /* 退出@2x.png in Resources */,
+				1699333E1FFB8129003FD64F /* 退出@1x.png in Resources */,
+				1699333C1FFB80D8003FD64F /* 退出@3x.png in Resources */,
+				169933241FFB7D09003FD64F /* 退出按键@3x.png in Resources */,
 				16E495D21FEBFFFE00CB0339 /* 地面@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
